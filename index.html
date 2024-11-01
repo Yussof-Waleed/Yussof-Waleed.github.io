@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpyCe</title>
+    <title>Spyce</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="bg-gray-50">
+
     <header class="bg-gray-800 text-white p-4">
         <nav class="flex justify-between items-center">
             <h1 class="text-2xl font-bold">SpyCe</h1>
@@ -20,78 +20,97 @@
             <a href="#demo" class="bg-blue-500 px-4 py-2 rounded text-white">Book a Demo</a>
         </nav>
     </header>
-    <section class="bg-blue-600 text-white text-center p-20">
-        <h1 class="text-5xl font-bold">Unlock the Power of Your Data</h1>
-        <p class="mt-4 text-xl">Extract, analyze, and visualize your data effortlessly.</p>
-        <a href="#demo" class="mt-6 inline-block bg-white text-blue-600 px-6 py-3 rounded-full font-semibold">Book a Demo</a>
+
+    <!-- Overview Section -->
+    <section id="overview" class="p-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Spyce</h2>
+        <p class="text-lg text-center mb-4">
+            Spyce is a SaaS company specializing in Business Intelligence and Competitive Price Monitoring for the e-commerce and retail sectors. Our subscription-based software equips businesses with specialized tools to effectively manage and optimize their pricing strategies in the competitive online retail landscape. By automating pricing processes, we help businesses respond swiftly to market changes, ensuring they stay ahead of the competition.
+        </p>
     </section>
-    <section id="features" class="p-10">
-        <h2 class="text-3xl font-bold text-center mb-6">Features</h2>
+
+    <!-- Challenges Section -->
+    <section id="challenges" class="p-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Time-Consuming Manual Processes</h2>
+        <ul class="list-disc list-inside text-lg text-center">
+            <li>Tracking and adjusting prices manually is labor-intensive and inefficient, often leading to delays in decision-making.</li>
+            <li>Rapid price changes can result in outdated or inaccurate information, making it difficult to react promptly.</li>
+            <li>Manually managing pricing across numerous products is not feasible, leading to increased operational costs and the need for additional staff.</li>
+            <li>Businesses struggle to monitor competitor pricing consistently, resulting in missed revenue opportunities.</li>
+        </ul>
+    </section>
+
+    <!-- Key Offerings Section -->
+    <section id="offerings" class="p-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Key Offerings</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold">Feature 1</h3>
-                <p>Description of feature 1.</p>
+                <h3 class="text-xl font-semibold">Automated Price Monitoring</h3>
+                <p>Continuous tracking of competitor prices in real time, with prices mirrored from competitors' websites to ensure accuracy.</p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold">Feature 2</h3>
-                <p>Description of feature 2.</p>
+                <h3 class="text-xl font-semibold">Dynamic Pricing Intelligence</h3>
+                <p>AI-driven insights that help businesses implement effective pricing strategies, allowing users to select custom time frames for reports.</p>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold">Feature 3</h3>
-                <p>Description of feature 3.</p>
-            </div>
-            <!-- Add more features as needed -->
-        </div>
-    </section>
-    <section id="testimonials" class="bg-gray-100 p-10">
-        <h2 class="text-3xl font-bold text-center mb-6">Testimonials</h2>
-        <div class="flex flex-col space-y-6">
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <p class="italic">"This service transformed our data strategy!"</p>
-                <p class="font-bold">- Customer Name</p>
-            </div>
-            <div class="bg-white p-6 rounded-lg shadow-md">
-                <p class="italic">"Amazing features and user-friendly interface."</p>
-                <p class="font-bold">- Another Customer</p>
+                <h3 class="text-xl font-semibold">Customizable Alerts</h3>
+                <p>Instant notifications when competitors adjust their pricing, enabling quick reactions and tailored reports for actionable insights.</p>
             </div>
         </div>
     </section>
+
+    <!-- Key Benefits Section -->
+    <section id="benefits" class="p-10">
+        <h2 class="text-3xl font-bold text-center mb-6">Key Benefits</h2>
+        <ul class="list-disc list-inside text-lg text-center">
+            <li>Businesses can see revenue increases of 10-15% through improved pricing strategies.</li>
+            <li>Automating price tracking can reduce manual efforts by up to 90%, saving approximately 18 hours per week.</li>
+            <li>Achieve up to a 25% increase in customer satisfaction through consistent and transparent pricing.</li>
+            <li>Gain a 5-10% increase in market share compared to competitors who do not use pricing intelligence tools.</li>
+            <li>Companies can realize an operational cost reduction of up to 30% by automating pricing processes.</li>
+        </ul>
+    </section>
+
+    <!-- Pricing Plans Section -->
     <section id="pricing" class="p-10">
-        <h2 class="text-3xl font-bold text-center mb-6">Pricing</h2>
+        <h2 class="text-3xl font-bold text-center mb-6">Pricing Plans</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="bg-white p-6 rounded-lg shadow-md">
                 <h3 class="text-xl font-semibold">Basic Plan</h3>
-                <p>$29/month</p>
-                <p>Basic features included.</p>
-                <a href="#demo" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded">Choose Plan</a>
+                <p class="text-2xl font-bold">$160/month</p>
+                <p>Annual Pricing: $600/year</p>
+                <p>Access to basic features.</p>
+                <a href="#contact" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded">Choose Plan</a>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold">Pro Plan</h3>
-                <p>$49/month</p>
-                <p>Advanced features included.</p>
-                <a href="#demo" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded">Choose Plan</a>
+                <h3 class="text-xl font-semibold">Advanced Plan</h3>
+                <p class="text-2xl font-bold">$400/month</p>
+                <p>Annual Pricing: $2,800/year</p>
+                <p>Access to advanced features.</p>
+                <a href="#contact" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded">Choose Plan</a>
             </div>
             <div class="bg-white p-6 rounded-lg shadow-md">
-                <h3 class="text-xl font-semibold">Enterprise Plan</h3>
-                <p>Contact us for pricing</p>
+                <h3 class="text-xl font-semibold">Premium Plan</h3>
+                <p class="text-2xl font-bold">$1,000/month</p>
+                <p>Annual Pricing: $8,000/year</p>
                 <p>Custom solutions tailored to your needs.</p>
-                <a href="#demo" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded">Choose Plan</a>
+                <a href="#contact" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded">Choose Plan</a>
             </div>
         </div>
     </section>
-    <section id="demo" class="bg-blue-600 text-white text-center p-10">
-        <h2 class="text-3xl font-bold">Ready to Get Started?</h2>
-        <p class="mt-4">Book a demo today to see our service in action!</p>
-        <a href="#contact" class="mt-6 inline-block bg-white text-blue-600 px-6 py-3 rounded-full font-semibold">Book a Demo</a>
+
+    <!-- Contact Information Section -->
+    <section id="contact" class="p-10 bg-gray-100">
+        <h2 class="text-3xl font-bold text-center mb-6">Contact Information</h2>
+        <p class="text-lg text-center mb-2">Phone: <a href="tel:+201018678515" class="text-blue-500">+20 101 867 8515</a></p>
+        <p class="text-lg text-center mb-2">Email: <a href="mailto:yussof@spyce.me" class="text-blue-500">yussof@spyce.me</a></p>
     </section>
-    <footer class="bg-gray-800 text-white p-4 text-center">
-        <p>&copy; 2024 Data Extractor. All rights reserved.</p>
-        <div class="mt-4">
-            <a href="#" class="mx-2 hover:underline">Facebook</a>
-            <a href="#" class="mx-2 hover:underline">Twitter</a>
-            <a href="#" class="mx-2 hover:underline">LinkedIn</a>
-        </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-6 text-center">
+        <p class="text-sm">© 2024 Spyce. All rights reserved.</p>
+        <p class="text-sm">Follow us on <a href="https://www.linkedin.com/in/yussofwaleed" class="text-blue-400">LinkedIn</a> for more updates!</p>
     </footer>
-                    
+
 </body>
 </html>
